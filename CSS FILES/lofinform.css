@@ -1,0 +1,6 @@
+body{background:url('../IMAGES/loginpage.jpg');background-size: cover;}
+table{font-variant-caps: all-petite-caps;font-size: 30px;margin-top: 50px;margin-left: 40px;}
+form{margin-left: 38%;width: 400px;}
+fieldset{border-radius: 20px;background-color: rgb(255, 255, 255);box-shadow: 5px 5px black;height: 200px;}
+button{margin-top: 50px;background-color: white;color: black;transform: skew(-20deg);font-size: 20px;margin-left: 100px;animation-name: abc;animation-duration: 3s;}
+h1{text-align: center;background: transparent;animation-name: abc;opacity: 1;animation-duration: 1s;font-size: 60px;}

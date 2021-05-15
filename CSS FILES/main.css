@@ -1,0 +1,47 @@
+body{background: url('../IMAGES/MAIN.jpg');background-size: cover;background-attachment: fixed;}
+#top{width: 100%;height: 100px;}
+#top-content{font-size: 25px;}
+#logo{height: 100px;width: 100px;animation-name: logo;animation-duration: 2s;animation-iteration-count: infinite;}
+#mainbox{height: 40px;width: 800px;border-radius: 50px;margin-top: 15px;margin-left: 30px;font-size: 20px;}
+#logo2{height: 70px;width: 70px;}
+#top select{height: 40px;width: 110px;margin-top: 15px;margin-left: 90px;font-size: 20px;}
+
+
+
+#main{width: 100%}
+.trend{width: 1000px;height: 300px;background-color: white;border-radius: 10px;margin-left:20%;transition-duration: 0.1s;}
+.trendhover{width: 1100px;height: 400px;opacity: 0.8;transition-duration: 0.1s;}
+.trend2{transition-duration: 0.4s;}
+.doctor{width: 500px;height: 200px;border: 2px solid white;color: black;margin-left: 20px;margin-top: 10px;box-shadow: 4px 4px #303030;}
+.doctor img{width: 39.9%;height: 100%;float: left;}
+.doctor div{float: right;background: url('../IMAGES/healthcare.jpg');height: 100%;width: 60%;background-size: cover;}
+.decopacity{opacity: 0.6;width: 530px;height: 230px;box-shadow: 6px 6px #303030;transition-duration: 0.1s;}
+#footer{width: 100%;height: 100px;}
+#importantlogo{float: right;height: 100px;width: 100px;animation-name: implogo;animation-duration: 1s;animation-iteration-count: infinite;}
+
+@keyframes logo {
+    from{
+        transform: rotateY(0deg);
+    }
+
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes implogo {
+    0%{
+        height: 100px;
+        width: 100px;
+    }
+
+    50%{
+        height: 130px;
+        width: 130px;
+    }
+
+    100%{
+        width: 100px;
+        height: 100px;
+    }
+}

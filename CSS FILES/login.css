@@ -1,0 +1,16 @@
+body{background:url("../IMAGES/loginpage.jpg") ;background-repeat: no-repeat;background-size: cover;}
+h1{margin-left: 350px;background: transparent;animation-name: abc;opacity: 1;animation-duration: 1s;font-size: 60px;}
+.btn{background-color: white;color: black;transform: skew(-20deg);height: 40px;width: 180px;font-size: 30px;margin-left: 10px;animation-name: abc;animation-duration: 3s;}
+div{margin-top: 100px;margin-left: 37%;}
+#skip{width: 100px;height: 30px;transform: skew(-20deg);margin-left: 150px;}
+button:hover{cursor: pointer;background-color:grey;}
+
+@keyframes abc {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}

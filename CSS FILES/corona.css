@@ -1,0 +1,16 @@
+div{font-size: 20px;}
+#logo{height: 100px;width: 100px;animation-name: logo;animation-duration: 2s;animation-iteration-count: infinite;}
+.topnav{list-style: none;padding: 5px;}
+.topnav li{display: inline;padding: 50px;text-align: center;}
+.topnav li:hover{cursor: pointer;text-decoration: underline;font-size: 25px;transition-duration: 0.1s;}
+.line{text-decoration: underline;}
+
+@keyframes logo {
+    from{
+        transform: rotateY(0deg);
+    }
+
+    to{
+        transform: rotateY(360deg);
+    }
+}

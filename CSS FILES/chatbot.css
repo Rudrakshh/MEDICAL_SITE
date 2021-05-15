@@ -1,0 +1,16 @@
+h1{color:red}
+h3{color: black;font-family: 'Times New Roman';font-size: 30px;}
+#war{font-size: 30px;animation-name: war1;animation-duration: 1s;height: 80px}
+#warspan{color: #FD3A4A;}
+#dis{font-size: 30px;font-family: engravers mt;margin-left: 10px;}
+#dis li{background-color: white;margin-top: 10px;}
+.popup{animation-name: abc;animation-duration: 1s;}
+
+@keyframes abc {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(720deg);
+    }
+}

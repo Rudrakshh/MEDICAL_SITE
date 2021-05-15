@@ -1,0 +1,24 @@
+body{background: url('../IMAGES/MAIN.jpg');background-size: cover;}
+#calldoctorinput{width: 80%;height: 40px;font-size: 30px;text-align: center;margin-top: 20px;}
+#searchdoctorbtn{height: 70px;margin-top: 30px;width: 100px;}
+.doc{width: 90%;height: 350px; margin-top: 5px;margin-left: 40px;transition-duration: 0.1s;}
+.dochover{height: 400px;width: 93%;transition-duration: 0.1s;}
+.docleft{float: left;width: 35%;height: 95%;}
+.docright{float: right;height: 95%;width: 64%;background: linear-gradient(to bottom right,powderblue,lightgreen);margin-top: 5px;}
+.docleft img{height: 100%;width: 100%;margin-top: 5px;}
+.docright .topcontent{text-decoration: underline;text-align: center;}
+.docright p{font-size: 25px;}
+.docright p span{font-weight: bold;}
+.calling{margin-left: 50%;width: 100px;height: 30px;transform: skew(-20deg);}
+#pagerefresh{background-color: yellow;font-size: 30px;position: fixed;margin-left: 41%;}
+#logo{height: 100px;width: 100px;animation-name: logo;animation-duration: 2s;animation-iteration-count: infinite;}
+
+@keyframes logo {
+from{
+transform: rotateY(0deg);
+}
+
+to{
+transform: rotateY(360deg);
+}
+}

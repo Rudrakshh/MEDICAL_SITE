@@ -1,0 +1,21 @@
+body{background: url('../HTML FILES/images/buymed.jpg');background-attachment: fixed;background-size: cover;}
+#searchmedicine{width: 80%;height: 40px;font-size: 30px;text-align: center;margin-top: 20px;}
+#main{display: flex;flex-wrap: wrap;}
+.medicine{width: 250px;height: 400px;margin-left: 150px;margin-top: 50px;border: 2px solid white;} 
+.medicine .top{width: 100%;height: 49%;}
+.medicine .below{width: 99%;background-color: powderblue;border: 2px solid powderblue;height: 50%;} 
+.medicine .top img{width: 100%;height: 100%;}  
+.medicine .below .sp1{font-weight: bold;font-size: 25px;} 
+.medicine .below .sp2{float: right;font-family: algerian;font-size: 30px;background-color: white;}
+.medicine .below button{width: 90%;margin-top: 10px;margin-left: 10px;}      
+#logo{height: 100px;width: 100px;animation-name: logo;animation-duration: 2s;animation-iteration-count: infinite;}
+#pagerefresh{background-color: yellow;font-size: 30px;position: fixed;margin-left: 41%;}
+@keyframes logo {
+from{
+transform: rotateY(0deg);
+}
+
+to{
+transform: rotateY(360deg);
+}
+}
